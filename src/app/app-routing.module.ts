@@ -5,13 +5,13 @@ import { TableComponent } from './share/table/table.component';
 import { GalleriaComponent } from './share/galleria/galleria.component';
 
 const routes: Routes = [
-  {path: 'picklist', component: PickListComponent},
-  {path: 'table', component: TableComponent},
-  {path: 'galleria', component: GalleriaComponent}
+  { path: 'galleria', component: GalleriaComponent },
+  { path: 'picklist', component: PickListComponent },
+  { path: 'table', component: TableComponent },
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
