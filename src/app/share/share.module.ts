@@ -12,6 +12,15 @@ import { UploadComponent } from './upload/upload.component';
 import { HttpClientModule } from '@angular/common/http';
 import { FileUploadModule } from 'primeng/fileupload';
 import { ToastModule } from 'primeng/toast';
+import { OrgtreeComponent } from './orgtree/orgtree.component';
+import { OrganizationChartModule } from 'primeng/organizationchart';
+import { RippleModule } from 'primeng/ripple';
+import { DynamicDialogModule } from 'primeng/dynamicdialog';
+import { AccordionModule } from 'primeng/accordion';
+import { TreeTableModule } from 'primeng/treetable';
+import { MenuComponent } from './menu/menu.component';
+import { TabMenuModule } from 'primeng/tabmenu';
+
 
 @NgModule({
   declarations: [
@@ -19,6 +28,9 @@ import { ToastModule } from 'primeng/toast';
     GalleriaComponent,
     TableComponent,
     UploadComponent,
+    TableComponent,
+    MenuComponent,
+    OrgtreeComponent
   ],
   imports: [
     CommonModule,
@@ -28,12 +40,19 @@ import { ToastModule } from 'primeng/toast';
     HttpClientModule,
     FileUploadModule,
     ToastModule,
+    OrganizationChartModule,
+    RippleModule,
+    DynamicDialogModule,
+    AccordionModule,
+    TreeTableModule,
+    TabMenuModule,
   ],
   exports: [
     PickListComponent,
     GalleriaComponent,
     TableComponent,
     UploadComponent,
+    MenuComponent,
   ],
 })
 export class ShareModule {}

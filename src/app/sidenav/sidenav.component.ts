@@ -12,5 +12,7 @@ export class SidenavComponent {
     { name: 'PickList', url: '/picklist' },
     { name: 'Table', url: '/table' },
     { name: 'Upload Img', url: '/upload' },
+    // { name: 'OrgTree', url: '/orgtree' },
+    { name: 'Menu', url: '/menu' },
   ];
 }
