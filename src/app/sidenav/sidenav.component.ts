@@ -10,5 +10,7 @@ export class SidenavComponent {
   menu = [
     { name: 'Item 1', url: '#' },
     { name: 'PickList', url: '/picklist' },
+    { name: 'Table', url: '/table' },
+    { name: 'Galleria', url: '/galleria' },
   ];
 }
