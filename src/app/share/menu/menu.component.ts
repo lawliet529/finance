@@ -1,16 +1,13 @@
 import { Component, OnInit } from '@angular/core';
-import { ActivatedRoute, Router } from '@angular/router';
 import { MenuItem } from 'primeng/api';
 
 @Component({
   selector: 'app-menu',
   templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.scss']
+  styleUrls: ['./menu.component.scss'],
 })
 export class MenuComponent implements OnInit {
-
-  constructor(private router: Router, private route: ActivatedRoute) { }
-
+  constructor() {}
 
   items: MenuItem[] = [];
   activeItem!: MenuItem;
@@ -19,7 +16,7 @@ export class MenuComponent implements OnInit {
       { label: 'Organization', routerLink: '/orgtree' },
       { label: 'Edit' },
       { label: 'Documentation' },
-      { label: 'Settings' }
+      { label: 'Settings' },
     ];
     this.activeItem = this.items[0];
   }

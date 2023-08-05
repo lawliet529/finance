@@ -14,8 +14,6 @@ import { FileUploadModule } from 'primeng/fileupload';
 import { ToastModule } from 'primeng/toast';
 import { OrgtreeComponent } from './orgtree/orgtree.component';
 import { OrganizationChartModule } from 'primeng/organizationchart';
-import { RippleModule } from 'primeng/ripple';
-import { DynamicDialogModule } from 'primeng/dynamicdialog';
 import { AccordionModule } from 'primeng/accordion';
 import { TreeTableModule } from 'primeng/treetable';
 import { MenuComponent } from './menu/menu.component';
@@ -30,7 +28,7 @@ import { TabMenuModule } from 'primeng/tabmenu';
     UploadComponent,
     TableComponent,
     MenuComponent,
-    OrgtreeComponent
+    OrgtreeComponent,
   ],
   imports: [
     CommonModule,
@@ -41,8 +39,6 @@ import { TabMenuModule } from 'primeng/tabmenu';
     FileUploadModule,
     ToastModule,
     OrganizationChartModule,
-    RippleModule,
-    DynamicDialogModule,
     AccordionModule,
     TreeTableModule,
     TabMenuModule,

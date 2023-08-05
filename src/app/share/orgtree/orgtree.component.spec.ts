@@ -8,9 +8,8 @@ describe('OrgtreeComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ OrgtreeComponent ]
-    })
-    .compileComponents();
+      declarations: [OrgtreeComponent],
+    }).compileComponents();
   });
 
   beforeEach(() => {

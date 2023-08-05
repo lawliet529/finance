@@ -4,14 +4,12 @@ import { TreeNode } from 'primeng/api';
 @Component({
   selector: 'app-orgtree',
   templateUrl: './orgtree.component.html',
-  styleUrls: ['./orgtree.component.scss']
+  styleUrls: ['./orgtree.component.scss'],
 })
 export class OrgtreeComponent implements OnInit {
+  constructor() {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
   data: TreeNode[] = [
     {
       expanded: true,
@@ -21,7 +19,7 @@ export class OrgtreeComponent implements OnInit {
         image: 'assets/amyelsner.png',
         name: 'Amy Elsner',
         title: 'CEO',
-        information: 'I am a CEO'//script
+        information: 'I am a CEO', //script
       },
       children: [
         {
@@ -32,7 +30,7 @@ export class OrgtreeComponent implements OnInit {
             image: 'assets/annafali.png',
             name: 'Anna Fali',
             title: 'CMO',
-            information: 'I am a CMO'//script
+            information: 'I am a CMO', //script
           },
           children: [
             {
@@ -44,8 +42,8 @@ export class OrgtreeComponent implements OnInit {
               label: 'Marketing',
               styleClass: 'bg-purple-500 text-white',
               // style: ' border-radius: 12px'
-            }
-          ]
+            },
+          ],
         },
         {
           expanded: true,
@@ -55,20 +53,20 @@ export class OrgtreeComponent implements OnInit {
             image: 'assets/stephenshaw.png',
             name: 'Stephen Shaw',
             title: 'CTO',
-            information: 'i am a CTO'//script
+            information: 'i am a CTO', //script
           },
           children: [
             {
               label: 'Development',
-              styleClass: 'bg-teal-500 text-white'
+              styleClass: 'bg-teal-500 text-white',
             },
             {
               label: 'UI/UX Design',
-              styleClass: 'bg-teal-500 text-white'
-            }
-          ]
-        }
-      ]
-    }
+              styleClass: 'bg-teal-500 text-white',
+            },
+          ],
+        },
+      ],
+    },
   ];
 }
