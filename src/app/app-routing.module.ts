@@ -9,8 +9,7 @@ import { OrgtreeComponent } from './share/orgtree/orgtree.component';
 import { MenuComponent } from './share/menu/menu.component';
 
 const routes: Routes = [
-  {path: 'dataview' , component: DataViewComponent}
-
+  { path: 'dataview', component: DataViewComponent },
   { path: 'galleria', component: GalleriaComponent },
   { path: 'picklist', component: PickListComponent },
   { path: 'table', component: TableComponent },
