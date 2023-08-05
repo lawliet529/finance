@@ -1,10 +1,10 @@
-import { Component } from '@angular/core';
-import { PRODUCT_DATA } from './data';
+import { Component, OnInit } from '@angular/core';
+import { PRODUCT_DATA } from 'src/app/data';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  selector: 'app-share-component',
+  templateUrl: './share-component.component.html',
+  styleUrls: ['./share-component.component.scss']
 })
 export class AppComponent {
   title = 'finance';
@@ -41,4 +41,3 @@ interface Product {
   image?: string;
   rating?: number;
 }
-
