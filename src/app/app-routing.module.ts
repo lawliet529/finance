@@ -21,7 +21,7 @@ const routes: Routes = [
   { path: 'orgtree', component: OrgtreeComponent },
   { path: 'menu', component: MenuComponent },
   { path: 'orderlist', component: OrderListComponent },
-  { path: 'splitter', component: SplitterComponent}
+  { path: 'splitter', component: SplitterComponent },
 ];
 
 @NgModule({
