@@ -29,6 +29,7 @@ import { OrderListComponent } from './order-list/order-list.component';
 import { AccordionComponent } from './accordion/accordion.component';
 import { DividerModule } from 'primeng/divider';
 
+
 @NgModule({
   declarations: [
     DataViewComponent,
@@ -63,7 +64,7 @@ import { DividerModule } from 'primeng/divider';
     TabMenuModule,
     OrderListModule,
     TagModule,
-    DividerModule
+    DividerModule,
   ],
   exports: [
     PickListComponent,
@@ -73,7 +74,7 @@ import { DividerModule } from 'primeng/divider';
     MenuComponent,
     DataViewComponent,
     OrderListComponent,
-    AccordionModule
+    AccordionModule,
   ],
 })
 export class ShareModule {}
