@@ -1,30 +1,25 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { BrowserModule } from '@angular/platform-browser';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AppRoutingModule } from '../app-routing.module';
 import { ImageModule } from 'primeng/image';
 import { CarouselModule } from 'primeng/carousel';
 import { TagModule } from 'primeng/tag';
 import { ButtonModule } from 'primeng/button';
-import { AppComponent } from './share-component/share-component.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { ImageComponent } from './image/image.component';
 
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    CarouselComponent,
+    ImageComponent,
   ],
   imports: [
-    BrowserModule,
-    BrowserAnimationsModule,
-    AppRoutingModule,
+    CommonModule,
     ImageModule,
     CarouselModule,
     TagModule,
-    ButtonModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    ButtonModule,
+  ]
 })
-export class AppModule { }
+export class ShareModule { }
