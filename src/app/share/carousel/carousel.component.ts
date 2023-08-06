@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { PRODUCT_DATA } from 'src/app/data';
+import { PRODUCTS_DATA } from 'src/app/data';
 
 @Component({
   selector: 'app-carousel',
@@ -7,7 +7,7 @@ import { PRODUCT_DATA } from 'src/app/data';
   styleUrls: ['./carousel.component.scss'],
 })
 export class CarouselComponent implements OnInit {
-  products: Product[] = PRODUCT_DATA;
+  products: Product[] = PRODUCTS_DATA;
 
   responsiveOptions: any[] | undefined;
 
